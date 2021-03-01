@@ -1,0 +1,23 @@
+<div class="container">
+  <h1>Stupid coach</h1>
+    <div class="answer-box">
+      <p>
+        <strong><%= @question %></strong>
+      </p>
+      <p>
+        (your question)
+      </p>
+    </div>
+    <div class="answer-box yellow-bg">
+      <p>
+        <strong><%= @answer %></strong>
+      </p>
+      <p>
+        (coach's answer!)
+      </p>
+    </div>
+    <div class="button">
+      <%= link_to "Ask a new question", ask_page_url %>
+    </div>
+  </div>
+
